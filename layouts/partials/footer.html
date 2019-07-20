@@ -24,7 +24,7 @@
     src="{{ $.Site.Params.commentsURL }}isso/js/embed.min.js"></script>
 {{ "<!-- end isso -->" | safeHTML }}
 
-<script src="https://instant.page/1.2.2" type="module" integrity="sha384-2xV8M5griQmzyiY3CDqh1dn4z3llDVqZDqzjzcY+jCBCk/a5fXJmuZ/40JJAPeoU"></script>
+<script src="{{ "assets/instant-page-1.2.2" | absURL }}"></script>
 <script src="{{ "assets/main.js" | absURL }}"></script>
 <script src="{{ "assets/prism.js" | absURL }}"></script>
 {{- partial "extended_footer.html" . }}
