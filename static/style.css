@@ -26,3 +26,20 @@
 .post-image-25{
     width: 25%;
 }
+
+.post-categories{
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 700;
+    color: rgb(34, 34, 34);
+    opacity: 0.5;
+}
+
+.post-categories a {
+    text-decoration: none;
+}
+
+.post-tags {
+    display: inline-block;
+    margin-bottom: unset;
+}
